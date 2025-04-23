@@ -1,13 +1,9 @@
 
 University Projects in C for Operating Systems
 
-Αρχεία που παραδίδονται:
-Readme.pdf
-Ergasia1.c
-a.txt – configuration file
+Ergasia 1:
+Process management system using semaphores and shared memory. The system spawns a user-defined number of child processes which print lines from a selected text file.
 
-Η μεταγλώττιση γίνεται με την εντολή:
-gcc -g -o ergasia1 ergasia1.c -lpthread -lrt
+Ergasia 2:
 
-Και εκτελείται με τις παραμέτρους:
-./ergasia1 a.txt mobydick.txt 4
+Implementation of larger file size support and symbolic links on the xv6 operating system.
