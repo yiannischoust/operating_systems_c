@@ -1,0 +1,21 @@
+Download ubuntu 24.04
+
+On Vs code select remote explorer and set it to ubuntu 24.04 as default
+
+Open a terminal
+
+Execute the commands
+git clone git://gallagher.di.uoa.gr/xv6-project-2024
+cd xv6-project-2024
+
+And follow the instructions on this linkQ
+https://pdos.csail.mit.edu/6.828/2019/tools.html
+
+Set qemu version to 7.2
+
+Execute the command
+make qemu 
+
+Press Ctrl+A+X to terminate qemu
+
+
